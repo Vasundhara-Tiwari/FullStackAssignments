@@ -1,0 +1,35 @@
+body {
+  background-color: cadetblue;
+}
+
+.image {
+  margin-right: 30px;
+}
+
+.center__content {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  border: black;
+}
+
+.innerPages {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  background-color: antiquewhite;
+  font-size: larger;
+  padding: 2vmin;
+  border-radius: 5px;
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+}
