@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(to right, #606c88, #3f4c6b);
+}
+
+.practical-6__heading {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.practical-6__boxes {
+  text-align: center;
+}
+
+.practical-6__innerBox {
+  background-color: rgb(250, 250, 250);
+  display: inline-block;
+  height: 60vh;
+
+  width: 20%;
+  margin-top: 10vh;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  border-radius: 1vw;
+  background: linear-gradient(to right, #b993d6, #8ca6db);
+}
+
+.practical-6__image {
+  margin-top: 1.5vw;
+}
+
+.practical-6__details {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  height: 6vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  overflow: hidden;
+}
+h3 {
+  padding: 1.5vw;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.practical-6__button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-top: 2vw;
+  background-color: rgb(255, 255, 255);
+  margin-left: 1.5vw;
+  padding: 1vw 1vw;
+  margin-right: 1.5vw;
+  border-radius: 0.5vw;
+}
+.practical-6__button:hover {
+  background-color: rgb(13, 155, 238);
+  color: white;
+  cursor: pointer;
+}
