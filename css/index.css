@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(to right, #4b6cb7, #182848);
+}
+
+.heading {
+  text-align: center;
+  color: rgb(43, 38, 38);
+  margin-top: 5vw;
+  font-family: cursive;
+  font-size: 5vw;
+}
+
+.practicals {
+  background-color: rgb(164, 168, 224);
+  width: 10vw;
+  padding: 2vw;
+  font-size: 1.3vw;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 1vw;
+  text-align: center;
+  margin: 2vw;
+  color: black;
+}
+
+.practicals:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.practical-list {
+  margin: 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
