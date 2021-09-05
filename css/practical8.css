@@ -1,0 +1,151 @@
+header {
+  background-color: gray;
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  font-size: 1.5vw;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1vw 1vw;
+}
+
+header ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+header ul li a {
+  background-color: none;
+  padding: 0.4vw 1.5vw 0.4vw 1.5vw;
+}
+
+header ul li a:hover {
+  border-radius: 0.5vw;
+  background-color: white;
+  color: black;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  height: 100vh;
+  margin-top: 1vh;
+  color: white;
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 100vh;
+  overflow: hidden;
+}
+
+.banner img {
+  height: 100vh;
+  width: 100vw;
+}
+
+.section__heading {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2vw;
+  margin-top: 2.5vw;
+  margin-bottom: 1.5vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  background-color: goldenrod;
+  border-radius: 50%;
+  height: 15vw;
+  line-height: 15vw;
+  text-align: center;
+  width: 15vw;
+  margin: 2vw;
+  margin-top: 2vw;
+}
+
+.circle img {
+  background-size: cover;
+  height: 15vw;
+  border-radius: 50%;
+  line-height: 15vw;
+}
+
+.section2__content {
+  margin-top: 2vw;
+  display: flex;
+}
+
+.main-content {
+  width: 50vw;
+  background-color: #7395ae;
+  height: 80.7vh;
+  margin-left: 5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  color: white;
+  margin: 0vh 1vh 1vh 1vh;
+  padding-top: 5vh;
+  padding-left: 5vw;
+}
+
+.main-content div {
+  font-size: 1.5vw;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: justify;
+  padding-top: 5vh;
+  padding-right: 2vw;
+  color: black;
+}
+
+.articles {
+  width: 50vw;
+  margin: 0vh 1vh 1vh 1vh;
+  height: 28vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3vw;
+  text-align: center;
+  color: white;
+}
+
+.articles img {
+  background-size: cover;
+  height: 28vh;
+  width: 50vw;
+}
+
+.rectangle {
+  height: 50vh;
+  width: 30vw;
+  background-color: red;
+  margin: 1vw;
+}
+
+footer {
+  background-color: rgba(177, 164, 177, 0.801);
+  margin-top: 1vw;
+  height: 8vh;
+  font-size: 1.3vw;
+  line-height: 8vh;
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1vw 1vw;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 1.5vw;
+}
