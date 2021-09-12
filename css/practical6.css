@@ -175,3 +175,19 @@ h3 {
   font-size: 1.2vw;
   padding: 0.5vw;
 }
+
+@media screen and (max-width: 650px) {
+  .practical-6__boxes {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5vw;
+  }
+
+  .practical-6__innerBox {
+    width: 80%;
+    margin-right: 0vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
