@@ -9,30 +9,52 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   padding: 1vw 1vw;
 }
-
-header ul {
-  display: inline-flex;
-  list-style: none;
+ul {
+  margin-right: 2vw;
   float: right;
-  padding-right: 2vw;
+  list-style: none;
 }
-
-header ul li a {
-  background-color: none;
-  padding: 0.4vw 1.5vw 0.4vw 1.5vw;
+ul li {
+  display: inline-flex;
+  line-height: 70px;
+  border-radius: 1vw;
 }
-
-header ul li a:hover {
-  border-radius: 0.5vw;
-  background-color: white;
-  color: black;
-}
-
-header ul li a {
+ul li a {
   text-decoration: none;
   color: white;
-}
 
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-family: arial;
+}
+ul li a:hover {
+  background-color: black;
+  border-radius: 1vw;
+}
+h2 {
+  float: left;
+  line-height: 70px;
+  color: white;
+  text-transform: uppercase;
+  font-family: arial;
+}
+.show-btn,
+.hide-btn {
+  line-height: 70px;
+  color: white;
+  font-size: 30px;
+  display: none;
+}
+.show-btn {
+  float: right;
+}
+.show-btn:hover,
+.hide-btn:hover {
+  color: orange;
+}
+#check {
+  visibility: hidden;
+}
 .banner {
   height: 100vh;
   margin-top: 1vh;
@@ -155,34 +177,36 @@ footer a {
 }
 
 @media screen and (max-width: 650px) {
-  header label div {
-    cursor: pointer;
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
+  .show-btn,
+  .hide-btn {
+    display: block;
   }
-
-  header ul {
+  .menu {
     position: fixed;
     width: 100%;
     height: 100vh;
+    right: -100%;
     background-color: grey;
-    left: -100%;
     text-align: center;
     line-height: normal;
-    transition: 2s;
-    padding: 1vw 0;
+    transition: 1s;
+    padding: 80px 0;
   }
 
-  header ul li {
-    display: block;
-    color: white;
+  #check:checked ~ .menu {
+    right: 0;
   }
-  header ul li a {
+  .menu li {
     display: block;
-    color: white;
-    font-size: 3vw;
+  }
+  .menu li a {
+    display: block;
+    font-size: 22px;
+  }
+  .hide-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
   }
 
   .banner {
