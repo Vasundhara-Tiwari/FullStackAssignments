@@ -180,3 +180,153 @@ footer a {
   text-decoration: none;
   font-size: 1.5vw;
 }
+
+@media screen and (max-width: 800px) {
+  header {
+    position: fixed;
+    height: 5vh;
+    content: "Full Stack";
+  }
+  ul li a:hover {
+    background-color: transparent;
+  }
+  .show-btn,
+  .hide-btn {
+    display: block;
+  }
+
+  .menu {
+    width: 70%;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    left: -100%;
+    background-color: grey;
+    line-height: normal;
+    text-align: center;
+    padding: 2vw 0;
+    transition: 1s;
+  }
+
+  #check:checked ~ .menu {
+    left: 0;
+  }
+  .menu li {
+    display: block;
+  }
+  .menu li a {
+    display: block;
+  }
+  .hide-btn {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  header {
+    position: fixed;
+    height: 5vh;
+  }
+
+  .show-btn,
+  .hide-btn {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    left: -100%;
+    background-color: grey;
+    line-height: normal;
+    text-align: center;
+    padding: 2vw 0;
+    transition: 1s;
+  }
+  #check:checked ~ .menu {
+    left: 0;
+  }
+  .menu li {
+    display: block;
+  }
+  .menu li a {
+    display: block;
+  }
+  .hide-btn {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+  }
+
+  .banner {
+    height: 50vh;
+    margin-top: 1vh;
+    color: white;
+    width: 100%;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 100vh;
+    overflow: hidden;
+  }
+  .row {
+    display: none;
+  }
+  .row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section2__content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main-content {
+    height: 30vh;
+    width: 100vw;
+    /*margin: 0vw 2vw 0vw 2vw;*/
+  }
+  .main-content div {
+    font-size: 1.5vw;
+    margin: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+    padding-top: 5vh;
+    padding-right: 5vw;
+    margin-right: 1vw;
+    color: black;
+  }
+
+  .articles_container {
+    width: 100%;
+  }
+  .articles {
+    display: block;
+    height: 40h;
+    width: 100vw;
+  }
+  .articles img {
+    width: 100vw;
+    height: 25vh;
+  }
+
+  footer {
+    height: 8vh;
+    font-size: 2vw;
+    line-height: 8vh;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1vw 1vw;
+  }
+
+  footer a {
+    text-decoration: none;
+    font-size: 2vw;
+  }
+}
