@@ -66,3 +66,10 @@ footer {
   margin-top: 0.5vw;
   color: gray;
 }
+
+.line {
+  margin-top: 2vw;
+  background-color: rgb(105, 105, 105);
+  height: 0.1vw;
+  opacity: 0.5;
+}
