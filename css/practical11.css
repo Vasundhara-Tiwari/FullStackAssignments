@@ -94,3 +94,71 @@ footer {
   background-color: rgb(56, 138, 209);
   transform: scale(1.5);
 }
+
+.icons {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.icons a {
+  text-decoration: none;
+  font-size: 4vw;
+  color: #f4f4f4;
+}
+
+.icons .fa-facebook,
+.fa-instagram,
+.fa-linkedin,
+.fa-twitter,
+.fa-github {
+  padding: 0.5vw;
+  border-radius: 50%;
+}
+
+.icons .fa-facebook:hover {
+  color: #3b5992;
+  background-color: white;
+  padding: 0.5vw;
+  border-radius: 50%;
+}
+
+.icons .fa-linkedin:hover {
+  color: #0e76a8;
+  background-color: white;
+  padding: 0.5vw;
+  border-radius: 50%;
+}
+
+.icons .fa-instagram:hover {
+  color: #fb3958;
+  background-color: white;
+  padding: 0.5vw;
+  border-radius: 50%;
+}
+
+.icons .fa-twitter:hover {
+  color: #00acee;
+  background-color: white;
+  padding: 0.5vw;
+  border-radius: 50%;
+}
+
+.fa-github:hover {
+  color: black;
+  background-color: white;
+  padding: 0.5vw;
+  border-radius: 50%;
+}
+
+.footer-section3__content {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 0.2vw;
+  font-size: 1.2vw;
+}
+
+.footer-section3__content a {
+  text-decoration: none;
+  color: white;
+}
