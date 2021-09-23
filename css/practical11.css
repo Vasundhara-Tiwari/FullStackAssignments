@@ -13,3 +13,13 @@
   font-size: 3vw;
   text-align: center;
 }
+
+footer {
+  bottom: 0;
+  position: fixed;
+  background-color: black;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
