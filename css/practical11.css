@@ -23,3 +23,46 @@ footer {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.footer-section1 {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  font-size: 1.1vw;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.footer-section1 .footer-about div {
+  padding-right: 2vw;
+}
+
+.footer-about,
+.footer-categories,
+.footer-quickLinks,
+.footer-contactUs {
+  text-transform: uppercase;
+  color: white;
+  padding: 1vw 1vw 1vw 1vw;
+}
+
+.footer-categories__content {
+  margin-top: 1vw;
+}
+
+.footer-categories__content div {
+  margin-top: 0.5vw;
+}
+
+.footer-categories__content div a {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer-categories__content div a:hover {
+  color: orange;
+}
+
+.footer-about div {
+  margin-top: 0.5vw;
+  color: gray;
+}
