@@ -42,3 +42,9 @@ tr {
 tr:nth-last-child(1) {
   border: none;
 }
+
+td {
+  font-size: 1vw;
+  padding: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
