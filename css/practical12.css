@@ -20,3 +20,17 @@ caption {
   font-weight: 600;
   background-color: rgb(40, 166, 224);
 }
+
+table {
+  padding: 1vw;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+th {
+  border-bottom: 2px solid rgb(148, 146, 146);
+  font-size: 1vw;
+  text-align: left;
+  padding: 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
