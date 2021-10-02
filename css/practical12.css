@@ -34,3 +34,11 @@ th {
   padding: 1vw;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+tr {
+  border-bottom: 2px solid rgb(148, 146, 146);
+}
+
+tr:nth-last-child(1) {
+  border: none;
+}
