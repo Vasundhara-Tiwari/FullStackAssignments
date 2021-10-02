@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, #4b6cb7, #182848);
+  background: linear-gradient(to right, #5b80d6, #5578c5);
 }
 
 .heading {
@@ -11,30 +11,31 @@ body {
 }
 
 .practicals {
-  background-color: rgb(164, 168, 224);
+  padding: 2vw;
+}
+
+a {
+  display: block;
   width: 10vw;
   padding: 2vw;
+  background-color: rgb(164, 168, 224);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
   font-size: 1.3vw;
+
+  text-align: center;
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 1vw;
-  text-align: center;
-  margin: 2vw;
-  color: black;
 }
 
-.practicals:hover {
+a:hover {
   background-color: black;
   color: white;
 }
 
-a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
 .practical-list {
-  margin: 5vw;
+  padding: 2vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
