@@ -44,6 +44,15 @@ tr:nth-last-child(1) td {
   border-bottom: none;
 }
 
+td a {
+  text-decoration: none;
+  color: gray;
+}
+
+td a:hover {
+  color: black;
+}
+
 @media (max-width: 750px) {
   caption {
     font-size: 2vw;
