@@ -1,14 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
+body {
+  background-color: #7cb342;
+}
+
 .heading {
   text-align: center;
   padding: 5vw;
   font-size: 5vw;
+  font-family: "Rampart One", cursive;
 }
 
 .content {
   text-align: center;
-  background-color: blanchedalmond;
+  background-color: rgb(159, 230, 218);
   padding: 10vw;
-
   margin: 0vw 10vw 0vw 10vw;
 }
 
@@ -18,10 +24,14 @@ span {
 
 button {
   outline: none;
-  border-radius: 1vw;
-  background-color: rgb(58, 81, 182);
+  text-decoration: none;
+  border: none;
+  box-shadow: 2vw solid white;
+  border-radius: 50%;
+  font-size: 1.5vw;
+  background-color: rgb(221, 82, 82);
   color: black;
-  padding: 2vw;
+  padding: 2vw 2vw 2vw 2vw;
 }
 
 button:disabled {
@@ -29,7 +39,10 @@ button:disabled {
 }
 
 button:hover {
-  background-color: rgb(63, 179, 88);
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.5s;
+  background-color: rgb(139, 180, 148);
 }
 
 button:disabled:hover {
