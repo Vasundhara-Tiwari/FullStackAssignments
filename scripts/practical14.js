@@ -11,3 +11,18 @@ function increase() {
     }
   };
 }
+
+function decrease() {
+  button2 = document.getElementById("minus-button");
+  var value = document.getElementById("value");
+  button2.onclick = function () {
+    if (count > 0) {
+      button2.disabled = false;
+      count -= 1;
+      value.innerHTML = count;
+    }
+    if (count < 1) {
+      button2.disabled = true;
+    }
+  };
+}
