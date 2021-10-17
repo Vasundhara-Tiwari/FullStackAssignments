@@ -16,10 +16,15 @@
         <div class="heading">
             Javascript - Counter
         </div>
-        <div class="content">
-            <button id="minus-button" onclick="decrease()"><i class="fas fa-minus"></i></button>
-            <span id="value">0</span>
-            <button id="plus-button" onclick="increase()"><i class="fas fa-plus"></i></button>
+        <div class="content-parent">
+            <div class="content">
+                <div class="content-child">
+                    <button id="minus-button" class="dec" onclick="decrease()"><i class="fas fa-minus"></i></button>
+                    <span id="value">0</span>
+                    <button id="plus-button" class="inc" onclick="increase()"><i class="fas fa-plus"></i></button>
+                </div>
+
+            </div>
         </div>
     </div>
     <script src="./scripts/practical14.js"></script>
