@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
 
 body {
-  background-color: #7cb342;
+  background-color: #99e7fa;
 }
 
 .heading {
@@ -11,15 +11,25 @@ body {
   font-family: "Rampart One", cursive;
 }
 
-.content {
-  text-align: center;
-  background-color: rgb(159, 230, 218);
-  padding: 10vw;
+.content-parent {
+  border: 0.2vw solid black;
   margin: 0vw 10vw 0vw 10vw;
+  padding: 0.15vw;
+}
+
+.content {
+  border: 0.08vw solid black;
+  padding: 0.15vw;
+}
+
+.content-child {
+  text-align: center;
+  padding: 10vw;
+  border: 0.2vw solid black;
 }
 
 span {
-  font-size: 1.5vw;
+  font-size: 2.5vw;
 }
 
 button {
@@ -29,9 +39,24 @@ button {
   box-shadow: 2vw solid white;
   border-radius: 50%;
   font-size: 1.5vw;
-  background-color: rgb(221, 82, 82);
-  color: black;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin: 0vw 5vw 0vw 5vw;
   padding: 2vw 2vw 2vw 2vw;
+}
+
+.inc {
+  background-color: rgb(58, 167, 58);
+}
+.inc:hover {
+  background-color: rgb(39, 118, 223);
+}
+
+.dec {
+  background-color: rgb(207, 74, 74);
+}
+.dec:hover {
+  background-color: rgb(39, 118, 223);
 }
 
 button:disabled {
@@ -42,7 +67,7 @@ button:hover {
   cursor: pointer;
   transform: scale(1.2);
   transition: 0.5s;
-  background-color: rgb(139, 180, 148);
+  background-color: rgb(39, 118, 223);
 }
 
 button:disabled:hover {
